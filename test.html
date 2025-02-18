@@ -12,12 +12,10 @@
     <div class="container mw-100 shadow text-center bg-light">    
         <img src="./img/Detran-GO-title.svg" class="img-fluid" alt="logo do detran">
     </div>
-    <h1 class="text-center p-3" style="font-family: 'Code Bold', sans-serif;">QUESTÕES</h1>
+    <h1 class="text-center p-3" style="font-family: 'Code Bold', sans-serif;" id="title">QUESTÕES</h1>
     <div class="container shadow bg-light p-3" id="container_quests">
        
-        <div class="text-center">
-        <input class="btn text-center text-light w-25" style="background-color: #EF7C00;" type="submit" value="Enviar" id="myInput" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        </div>
+
     </div>
 
     <!-- Modal -->
@@ -33,8 +31,8 @@
             </div>
 
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">não</button>
-            <button type="button" class="btn text-light " style="background-color: #EF7C00;">Ver resultado</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >não</button>
+            <button type="button" class="btn text-light "  onclick="startResult()" data-bs-dismiss="modal" style="background-color: #EF7C00;">Ver resultado</button>
             </div>
         </div>
         </div>
