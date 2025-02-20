@@ -241,15 +241,19 @@ const questions = [
     },
     
     
+    
 ]
 
+
 const getId = (id) => document.getElementById(id);
+
 //------------executa ao apertar play-------------- >
 
 //randomiza as questão e seleciona a quantidade
+let newquest = []
 let newQuestion = () =>{
-    let newQuestions = []
-
+    let new_array = []
+    
     //randomiza array
     const randomArray = (array) => {
         for (let i = array.length - 1; i > 0; i--) {
@@ -268,44 +272,39 @@ let newQuestion = () =>{
         temp_array = randomArray(temp_array)
         return temp_array
     }  
-    i_quest = i_quest()
-    //console.log("i_quest", i_quest)
-    //cria array atualizada
-    for (let _i = 0; _i < (temp = questions.length <= 30 ? questions.length : 30); _i++) {
-        //cria array
-        let alter = []
-        alter.push(questions[i_quest[_i]].alter_correct, ...questions[i_quest[_i]].alter_incorrect)
-        alter = randomArray(alter)
-        //cria objeto
-        const obj = {
-            question:questions[i_quest[_i]].question,
-            alter_correct:questions[i_quest[_i]].alter_correct,
-            alter:alter
-        }
-        
-        //adiciona tudo dentro de uma array
-        newQuestions.push(obj)  
-    }
- 
-   // newQuestions = randomArray(newQuestions)
+    i_quest = i_quest() //tranforma em array
 
-    return newQuestions
+    new_array = i_quest
+    new_array.forEach((e)=>{
+        
+        let alter = []
+        alter.push(questions[e].alter_correct, ...questions[e].alter_incorrect)    
+
+        //randomiza opçoes
+        alter = randomArray(alter)
+        //cria nova lista
+        const obj = {
+            question: questions[e].question,
+            alter_correct: questions[e].alter_correct,
+            alter: alter
+        }
+        newquest.push(obj)
+    })
+    return newquest
 }
 
-
 const container_quest = getId("container_quests")
-let correction = ""
+let newQuestionn = newQuestion()
 
-
-newQuestion().forEach( (e,i) => {
+newQuestionn.forEach( (e,i) => {
     container_quest.innerHTML += `
     <div class="container shadow-sm mb-4  bg-light ">
         <p class="fs-5"><span>${i + 1} - </span>${e.question}</p>
         <!--questoes-->
         
             <div class="form-check" >
-                <input class="form-check-input" type="radio" name="alterRadio-${i}" id="alterRadioA_${i}" value="${e.alter[0]} ">
-                <label class="form-check-label" for="alterRadioA_${i}" id="labelRadioA_${i}" >A - ${e.alter[0]} </label>
+                <input class="form-check-input" type="radio" name="alterRadio-${i}" id="alterRadioA_${i}" value="${e.alter[0]}">
+                <label class="form-check-label" for="alterRadioA_${i}" id="labelRadioA_${i}">A - ${e.alter[0]}</label>
                 <label id="correctionA_${i}"></label>
             </div>
 
@@ -328,7 +327,6 @@ newQuestion().forEach( (e,i) => {
             </div>
     </div>
     `
-
 });
 container_quest.innerHTML += `
     <div class="text-center">
@@ -337,12 +335,12 @@ container_quest.innerHTML += `
     </div>`
     ;
 
-//executa clicar ver resultado
 
+//executa clicar ver resultado
 function startResult() {
     point = 0;
-    newQuestion().forEach((e,i)=>{
-
+    newQuestionn.forEach((e,i)=>{
+        
         const radion_A = getId(`alterRadioA_${i}`)
         const radion_B = getId(`alterRadioB_${i}`)
         const radion_C = getId(`alterRadioC_${i}`)
@@ -358,24 +356,25 @@ function startResult() {
         const label_C = getId(`labelRadioC_${i}`)
         const label_D = getId(`labelRadioD_${i}`)
 
-        const checked = (radio,form,label) =>{
-            let checkedd = radio.value
-            radio.disabled = true
-            if(radio.checked){
-                if(checkedd === e.alter_correct){
+        function checked(radion,form,label) {
+            radion.disabled = true
+            const check = radion.checked
+            console.log("check",check)
+            if(check){
+                if(radion.value == e.alter_correct){
+                    label.style.backgroundColor = "rgba(1, 230, 47, 0.14)";
                     form.innerText = "✓";
                     form.style.color = "green";
-                    label.style.backgroundColor = "rgba(1, 230, 47, 0.14)";
-                    //point += 1
+                    point ++
                 }else{
                     label.style.backgroundColor = "rgba(203, 0, 0, 0.14)";
+                  
                 }
-            }else if(checkedd === e.alter_correct){ 
-                form.innerText = "✕"
-                form.style.color = "red"
-            }else{
-                  form.innerText = "-"
-            }
+                console.log(e.alter_correct == radion.value, "id:",radion.value)
+            }else if(radion.value == e.alter_correct){ 
+                    form.innerText = "✕"
+                    form.style.color = "red"
+                }
         }
 
         checked(radion_A,form_A,label_A)
@@ -386,7 +385,7 @@ function startResult() {
     })
 
      //texto
-     const title = getId('title').textContent = "RESULTADO"
+     getId('title').textContent = "RESULTADO"
      const point_id = getId('point_id')
      point_id.textContent = `${point}/30`
      if(point <= 22){
@@ -394,8 +393,7 @@ function startResult() {
      }else {
         point_id.style.color = "green"
      }
+     console.log(point)
   
 }
 
-console.log("correto: ",newQuestion()[0].alter_correct)
-console.log("option: ",newQuestion()[0].alter)
