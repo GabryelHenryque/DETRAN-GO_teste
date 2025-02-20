@@ -265,22 +265,24 @@ let newQuestion = () =>{
         for (let _t = 0; _t < questions.length; _t++) {
             temp_array.push(_t)
         }
+        temp_array = randomArray(temp_array)
         return temp_array
     }  
     i_quest = i_quest()
-
+    //console.log("i_quest", i_quest)
     //cria array atualizada
     for (let _i = 0; _i < (temp = questions.length <= 30 ? questions.length : 30); _i++) {
         //cria array
-        const alter = []
+        let alter = []
         alter.push(questions[i_quest[_i]].alter_correct, ...questions[i_quest[_i]].alter_incorrect)
-        randomArray(alter)
+        alter = randomArray(alter)
         //cria objeto
         const obj = {
             question:questions[i_quest[_i]].question,
             alter_correct:questions[i_quest[_i]].alter_correct,
             alter:alter
         }
+        
         //adiciona tudo dentro de uma array
         newQuestions.push(obj)  
     }
@@ -364,7 +366,7 @@ function startResult() {
                     form.innerText = "✓";
                     form.style.color = "green";
                     label.style.backgroundColor = "rgba(1, 230, 47, 0.14)";
-                    point += 1
+                    //point += 1
                 }else{
                     label.style.backgroundColor = "rgba(203, 0, 0, 0.14)";
                 }
@@ -374,8 +376,6 @@ function startResult() {
             }else{
                   form.innerText = "-"
             }
-
-
         }
 
         checked(radion_A,form_A,label_A)
@@ -394,6 +394,8 @@ function startResult() {
      }else {
         point_id.style.color = "green"
      }
+  
 }
 
-
+console.log("correto: ",newQuestion()[0].alter_correct)
+console.log("option: ",newQuestion()[0].alter)
