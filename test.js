@@ -52,7 +52,7 @@ const questions = [
         alter_correct:"Motocicletas, triciclos e ciclomotores.",
         alter_incorrect:[
             "Ônibus e micro-ônibus.",
-            "Camionetas",
+            "Camionetas.",
             "Trailers."]  
     },
     {
@@ -83,9 +83,9 @@ const questions = [
         question:"Transitar em velocidade superior à máxima permitida em até 20% é uma infração:",
         alter_correct:"Média.",
         alter_incorrect:[
-            "Grave",
-            "Leve",
-            "Gravíssima"]  
+            "Grave.",
+            "Leve.",
+            "Gravíssima."]  
     },
     {
         question:"A visibilidade do condutor, que exige sua redobrada atenção, é mais reduzida:",
@@ -97,67 +97,67 @@ const questions = [
     },
     {
         question:"Granito e chuva são classificados como condições adversas de:",
-        alter_correct:"Tempo",
+        alter_correct:"Tempo.",
         alter_incorrect:[
-            "Veículo",
-            "Trânsito",
-            "Luz"]  
+            "Veículo.",
+            "Trânsito.",
+            "Luz."]  
     },
     {
         question:"São condições adversas de via:",
         alter_correct:"Os desvios e os buracos.",
         alter_incorrect:[
-            "O morro e o granizo",
-            "O granizo e a pista escorregadia",
-            "A chuva e a neblina"]  
+            "O morro e o granizo.",
+            "O granizo e a pista escorregadia.",
+            "A chuva e a neblina."]  
     },
     {
         question:"Ao dirigir com chuva, o condutor deve manter, pelo menos:",
-        alter_correct:"Luzes de posição acesas",
+        alter_correct:"Luzes de posição acesas.",
         alter_incorrect:[
-            "Pisca-alerta aceso",
-            "Faróis altos acesos",
-            "Luzes de posição apagadas"]  
+            "Pisca-alerta aceso.",
+            "Faróis altos acesos.",
+            "Luzes de posição apagadas."]  
     },
     {
         question:"Ao se aproximar de um cruzamento, uma forma de segura de agir do condutor é:",
-        alter_correct:"Reduzir a velocidade",
+        alter_correct:"Reduzir a velocidade.",
         alter_incorrect:[
-            "Acionar a buzina",
-            "Manter a mesma velocidade",
-            "aumentar a velocidade"]  
+            "Acionar a buzina.",
+            "Manter a mesma velocidade.",
+            "Aumentar a velocidade."]  
     },
     {
         question:"Congestionamento é considerado condição adversa de:",
-        alter_correct:"Trânsito",
+        alter_correct:"Trânsito.",
         alter_incorrect:[
-            "Motorista",
-            "Rodovias",
-            "Vias"]  
+            "Motorista.",
+            "Rodovias.",
+            "Vias."]  
     },
     {
         question:"Atos de imperícia de condutor são ocasionados por:",
-        alter_correct:"falta de habilidade.",
+        alter_correct:"Falta de habilidade.",
         alter_incorrect:[
-            "Desobediência à sinalização",
-            "Dirigir com sono",
-            "Dirigir sob efeito de álcool"]  
+            "Desobediência à sinalização.",
+            "Dirigir com sono.",
+            "Dirigir sob efeito de álcool."]  
     },
     {
         question:"Ao atender uma vítima de sinistro, o indivíduo que presta socorro tem como finalidade principal:",
-        alter_correct:"Preservar a vida",
+        alter_correct:"Preservar a vida.",
         alter_incorrect:[
             "Diminuir as lesões.",
-            "Transportar para o hospital",
+            "Transportar para o hospital.",
             "Aliaviar a dor."]  
     },
     {
         question:"As hemorragias são classificadas em:",
         alter_correct:"Interna e externa.",
         alter_incorrect:[
-            "Arterial e venosa",
-            "Arterial e nasal",
-            "Interna e arterial"]  
+            "Arterial e venosa.",
+            "Arterial e nasal.",
+            "Interna e arterial."]  
     },
     {
         question:"O melhor local do corpo para se verificar a pulsação de vítima adulta inconsciente é:",
@@ -177,23 +177,23 @@ const questions = [
     },
     {   
         question:"São fontes de poluição sonora veicular:",
-        alter_correct:"Escapamento aberto e aparelhos de som",
+        alter_correct:"Escapamento aberto e aparelhos de som.",
         alter_incorrect:[
-            "Baterias com vazamentos",
+            "Baterias com vazamentos.",
             "Combustível adulterado.",
-            "carcaça de pneus usados."]  
+            "Carcaça de pneus usados."]  
     },
     {   
-        question:"Nos grandes centros urbanos, os principais causadores de polioção do ar são:",
+        question:"Nos grandes centros urbanos, os principais causadores de poluição do ar são:",
         alter_correct:"Os veículos automotores e indústrias.",
         alter_incorrect:[
             "As fábricas.",
-            "As usinas termelétricas.",
+            "As usinas termelétrica.",
             "As queimadas."]  
     },
     {   
         question:"A proteção do meio ambiente:",
-        alter_correct:"è o objetivo fundamental das leis e normas ambientais.",
+        alter_correct:"É o objetivo fundamental das leis e normas ambientais.",
         alter_incorrect:[
             "É de responsabilidade exclusiva das organizações internacionais.",
             "Não deve ser preocupação de condutores de veículos automotores.",
@@ -220,12 +220,12 @@ const questions = [
         alter_correct:"Reduz sua vida útil.",
         alter_incorrect:[
             "Aumenta a capacidade de frenagem.",
-            "Favorece a estabilidade em curvas.",
+            "Favorecer a estabilidade em curvas.",
             "Aumenta sua vida útil."]  
     },
     {   
         question:"O excesso de fumaça eliminado pelos motores de combustão pode ser indentificado:",
-        alter_correct:"Pelo escapamento",
+        alter_correct:"Pelo escapamento.",
         alter_incorrect:[
             "Pelo ventilação do motor.",
             "Pelo silenciador.",
@@ -241,6 +241,207 @@ const questions = [
     },
     
     
+    //prova laranja
+    {   
+        question:"Para acionar a Polícia Rodoviária Federal, devemos ligar para o telefone:",
+        alter_correct:"191",
+        alter_incorrect:[
+            "192",
+            "195",
+            "190"]  
+    },
+    {   
+        question:"O ofuscamento da visão do condutor do veículo pode ser evitado, tornando-se o seguinte cuidado:",
+        alter_correct:"Desviando a visão para uma referência na faixa á direita da pista ao cruzar com veículo que esteja com luz alta à noite.",
+        alter_incorrect:[
+            "Acionando a luz alta ao entrar em túneis.",
+            "Utilizando óculos escuros à noite.",
+            "Posicionando a mão acima dos olhos para evitar a incidência da luz do sol."]  
+    },
+    {   
+        question:"Gás sem sabor, sem cheiro e sem cor é perigoso porque reduz a capacidade de assimilação do oxigênio pelo sangue, é o:",
+        alter_correct:"Monóxido de carbono.",
+        alter_incorrect:[
+            "Nitrogênio.",
+            "Enxofre.",
+            "Lixo doméstico."]  
+    },
+    {   
+        question:"Qual das condutas abaixo se enquadra na previsão dos crimes de trânsito?",
+        alter_correct:"Dirigir alcoolizado.",
+        alter_incorrect:[
+            "Dirigir veículo com CNH vencida.",
+            "Avançar o sinal vermelho.",
+            "Dirigir veículo de categoria diferente da CNH."]  
+    },
+    {   
+        question:"Em hemorragia externa, se o sangue ensopar as primeiras compressas aplicadas, você deverá:",
+        alter_correct:"Colocar mais compressas sobre as que já estão no local.",
+        alter_incorrect:[
+            "Cobrir as compressas ensopadas com plástico e recolocá-las.",
+            "Colocar a mão sobre o ferimento para estancar a hemorragia.",
+            "Retirar as já existentes e colocar novas compressas."]  
+    },
+    {   
+        question:"Para evitar a colisão com o veículo que vai à frente, o motorista deverá:",
+        alter_correct:"Manter distância de segurança.",
+        alter_incorrect:[
+            "Manter a velociade do seu veículo menos que a velocidade máxima permitida para a via.",
+            "Dar sinal de luz para o veículo que vai à frente.",
+            "Ultrapassá-lo no menos tempo possível."]  
+    },
+    {   
+        question:"Em que tipo de refrigeração, o motor utiliza o termômetro?",
+        alter_correct:"A água.",
+        alter_incorrect:[
+            "A ar condicionado.",
+            "A ar.",
+            "Elétrica."]  
+    },
+    {   
+        question:"Em rodovias, sem local apropriado para retorno ou para entrar á esquerda, o condutor deverá aguardar a oportunidade para cruzar a pista, parando o veículo:",
+        alter_correct:"No acostamento, à direita.",
+        alter_incorrect:[
+            "À esquerda da pista.",
+            "No centro da pista, na faixa divisória dos fluxo.",
+            "No local em que considerar como o mais seguro."]  
+    },
+    {   
+        question:"Qual o nome técnico da placa R-38",
+        alter_correct:"Proibido trânsito de ônibus.",
+        alter_incorrect:[
+            "Proibido trânsito de veículo de carga.",
+            "Proibido trânsito de veículos de passageiros,",
+            "Proibido trânsito de caminhões."]  
+    },
+    {   
+        question:"Para trafegar com margem de segurança, a atitude correta do condutor depende de:",
+        alter_correct:"Observação, previsão e decisão.",
+        alter_incorrect:[
+            "Conservação do veiculo, técnica, decisão e fones de ouvido.",
+            "Conservação do veículo e da posição da cabeça.",
+            "Do aumento da velocidade, das condiçães das vias e dos fatores externos."]  
+    },
+    {   
+        question:"É proibudi a todo condutor de veículo:",
+        alter_correct:"Usar a buzina entre vinte e duas e seis horas.",
+        alter_incorrect:[
+            "Dirigir com as duas mãos no volante.",
+            "Usar o cinto de segurança.",
+            "Transitar com farol baixo em vias com iluminação pública."]  
+    },
+    {   
+        question:"De acordo com a Lesgislação de Trânsito em vígor, o tempo da parada do veiculo deve ser:",
+        alter_correct:"O necessário para efetuar o embarque e desembarque de passageiros.",
+        alter_incorrect:[
+            "O necessário para a carga e descarga, e embarque e desembarque de passageiros.",
+            "Depende do agente de trânsito.",
+            "De acordo com a necessidade de condutor."]  
+    },
+    {   
+        question:"Qual o nome técnico da placa S-3?",
+        alter_correct:"Serviço mecânico.",
+        alter_incorrect:[
+            "Loja de ferragens.",
+            "Oficina autorizada.",
+            "Área de manutenção."]  
+    },
+    {   
+        question:"Se houver perigo de incêndio em um veículo acidentado, que atitudes vocÊ deve tornar?",
+        alter_correct:"Afastar curiosos e se for fácil e seguro, desligar o motor do veículo acidentado.",
+        alter_incorrect:[
+            "Ficar próximo do veículo acindentado com baldes de água.",
+            "Caso estaja nervoso fumar no local, para aliviar a tensão.",
+            "Aguardar junto ao veículos acidentado a chegada di corpo de bombeiros."]  
+    },
+    {   
+        question:"O equipamento de segurança do veículo, cuja finalidade é limitar a movimentação dos ocupantes deste, em caso de acidentes ou em freadas bruscas é o:",
+        alter_correct:"Cinto de segurança.",
+        alter_incorrect:[
+            "Sistema de travamento dos bancos de veículo.",
+            "Freio de serviço.",
+            "Cinto de árvore de transmissão."]  
+    },
+    {   
+        question:"Qual o nome técnico da placa A-23?",
+        alter_correct:"Ponte móvel.",
+        alter_incorrect:[
+            "Ponte estreita.",
+            "Confluência ao centro.",
+            "Divisão de pista."]  
+    },
+    {   
+        question:"O veículo automotor, elétrico, articulado, reboque e semi-reboque, para transitar nas vias públicas, deverá ser licenciado:",
+        alter_correct:"Anualmente, no DETRAN onde o veículo for registrado.",
+        alter_incorrect:[
+            "Semestralmente, no DETRAN onde o veículo for registrado.",
+            "Semestralmente, desde que seu proprietário pague o IPVA anualmente.",
+            "Somente quando mudar de proprietário."]  
+    },
+    {   
+        question:"Qual a distância recomendada para iniciar a sinalização, em uma rodovia com velocidade máxima permitida de 100 quilômetros por hora, em caso de acidente?",
+        alter_correct:"100 passos largos ou 100 metros",
+        alter_incorrect:[
+            "60 passos largos ou 60 metros.",
+            "50 passos largos ou 50 metros.",
+            "30 passos largos ou 30 metros."]  
+    },
+    {   
+        question:"São exemplos de condições adversas da via:",
+        alter_correct:"Acostamento rebaixado e pista escorregadia.",
+        alter_incorrect:[
+            "Sinalização vertical adequada e pista irregular.",
+            "Sinalização horizontal perfeita e pavimento em boas consiçães.",
+            "Falta de vegetação próxima à pista e vento lateral."]  
+    },
+    {   
+        question:"A que distância, estacionar um automóvel afastado da guia da calçada, configura infração de trânsito?",
+        alter_correct:"A partir de cinquenta centímetros.",
+        alter_incorrect:[
+            "A partir de trinta centímetros.",
+            "Somente a partir de um metro e cinquenta centímetros.",
+            "A partir de quarenta centímetros."]  
+    },
+    {   
+        question:"Um silvo longo significa:",
+        alter_correct:"Diminua a marcha.",
+        alter_incorrect:[
+            "Motoristas a postos.",
+            "Siga.",
+            "Pare."]  
+    },
+    {   
+        question:"Um dos cuidados que devemos ter periodícamente com o veículo, como meio de diminuir a poluição do meio ambiente, é:",
+        alter_correct:"Verificar o nivel de óleo do motor.",
+        alter_incorrect:[
+            "Lavar os pneus para evitar a derrapagem.",
+            "Verificar a água do sistema de freio.",
+            "Lavar os pára-brisas semanalmente."]  
+    },
+    {   
+        question:"Sobre a circulação de ciclimotor é correto afirmar.",
+        alter_correct:"Este veículo deve ser conduzido pela direita da pista de rolamento.",
+        alter_incorrect:[
+            "A utilização do capacete não é obrigatória nestes veículos.",
+            "É proibida sua circulação em vias arterials e coletoras.",
+            "Não é permitido transportar passageiro neste veículo."]  
+    },
+    {   
+        question:"Produtos perigosos são aqueles que:",
+        alter_correct:"Apresentam risco ao meio ambiente.",
+        alter_incorrect:[
+            "",
+            "",
+            ""]  
+    },
+    {   
+        question:"",
+        alter_correct:"",
+        alter_incorrect:[
+            "",
+            "",
+            ""]  
+    },
     
 ]
 
