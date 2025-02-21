@@ -430,22 +430,160 @@ const questions = [
         question:"Produtos perigosos são aqueles que:",
         alter_correct:"Apresentam risco ao meio ambiente.",
         alter_incorrect:[
-            "",
-            "",
-            ""]  
+            "Podemos consumr sem perigo para a vida.",
+            "São preparados somente para tranquilizar.",
+            "São recomendados pelos médicos."]  
     },
     {   
-        question:"",
+        question:"Se por motivo de força maior, o recurso interposto junto a JARI, não for julgado no prazo de 30 dias, a autoridade responsável pela penalidade, de oficio ou por solicitação do recrrente:",
+        alter_correct:"Concederá efeito suspensivo.",
+        alter_incorrect:[
+            "Remeterá o recurso para instância superior.",
+            "Julgará o registro do auto de infração.",
+            "Arquivará o auto de infração."]  
+    },
+    {   
+        question:"A carteira Nacional de Habilitação permite ao condutor.",
+        alter_correct:"Dirigir veículos automotores para os quais foi habilitado, em tod o território nacional.",
+        alter_incorrect:[
+            "Dirigir veiculos automotor apenas até 3.500 kg.",
+            "Dirigir veiculos automotores para os quais foi habilitado, apenas na localidade onde foi emitida.",
+            "Dirigir qualquer tipo de veiculo automotor em todo o território nacional."]  
+    },
+    {   
+        question:"Qual o nome do vínculo permanente de subordinação dos individuos à autoridade de um Estado, que lhes dá proteção e reconhece seus direitos?",
+        alter_correct:"Nacionalidade",
+        alter_incorrect:[
+            "Naturalidade.",
+            "Identidade.",
+            "Patriotismo."]  
+    },
+    {   
+        question:"Quais os componentes que fazem parte do sistema de alimentação do veículo?",
+        alter_correct:"Todas as alternativas estão corretas.",
+        alter_incorrect:[
+            "Carburador",
+            "Injeção eletrônica.",
+            "Bomba de gasolina."]  
+    },
+    
+    
+    //Prova preta
+    {   
+        question:"Nos grandes centros urbanos, os principais causadores da poluição do ar são:",
+        alter_correct:"Os veiculos automotores.",
+        alter_incorrect:[
+            "As usinas termoelétricas.",
+            "As queimadas.",
+            "Os veículos elétricos."]  
+    },
+    {   
+        question:"O condutor prudente deve:",
+        alter_correct:"Manter o veiculo em perfeitas condições de uso.",
+        alter_incorrect:[
+            "Acelerar bruscamente ao efetuar as trocas de marcha.",
+            "Transitar com os pneus abaixo de pressão recomendada pelo fabricante.",
+            "Realizar aceleradas bruscas e frenagens com deslizamento de pneus."]  
+    },
+    {   
+        question:"É dever de todo condutor de veiculo:",
+        alter_correct:"transitar com velocidade máxima permitida para a vía, diante de escolar e onde haja grande movimentação de pedestres.",
+        alter_incorrect:[
+            "Trocar a placa do veículo por ocasião da transferência de proriedade.",
+            "Guardar distância de segurança lateral e frontal entre o seu e os demais veículos, bem como em relação ao borda da pista.",
+            "Nass  vias urbanas, posicionar-se mais à direita da via, quando for entrar para a esquerda em via de sentido único."]  
+    },
+    {   
+        question:"Qual o nome técnico da placa R-6C?",
+        alter_correct:"Proibido parar e estacionar.",
+        alter_incorrect:[
+            "Estacionamento regulamentado.",
+            "Proibido parada.",
+            "Proibido estacionar."]  
+    },
+    {   
+        question:"A respeito da faixa horizontal dos veículos destinados ao transporte escolar, é correto afirmar que:",
+        alter_correct:"Deverá ser de cor preta quando a carroceria do veiculo for pintada na cor amarela.",
+        alter_incorrect:[
+            "Deverá possuir o dístico escolar na cor azul.",
+            "Deverá estar presente em toda a extensão da parte frontal, lateral e traseira do veículo.",
+            "Deverá sempre ser de cor amarela a verde."]  
+    },
+    {   
+        question:"Nas vias em que o estacionamento for proibido, a parada de veículos poderá ser feita:",
+        alter_correct:"Restringindo-se ao tempo indispensável para embarque ou desembarque de passageiro, sem interrromper o trânsito.",
+        alter_incorrect:[
+            "Restringindo-se ao tempo necessário a carga e a descarga.",
+            "Desde que o veículo esteja ligado e o condutor esteja fora dele.",
+            "Sobre o passeio."]  
+    },
+    {   
+        question:"A velocidade compativel com a segurança permite ao motorista:",
+        alter_correct:"Fazer uma manobra de emergência, quando houver necessidade, como frear ou desviar o veiculo de outro.",
+        alter_incorrect:[
+            "Chegar ao seu destino no menor tempo possível.",
+            "Ter prioridade em situações de congestionamento sobre qualquer outro.",
+            "Circula de acordo com sua coveniência."]  
+    },
+    {   
+        question:"As repartições de trânsito deverão conservar os documentos relativos á habilitação de condutores, de registro e licenciamento de veículos por no mínimo:",
+        alter_correct:"05 (cinco) anos.",
+        alter_incorrect:[
+            "07 (sete) anos.",
+            "02 (dois) anos.",
+            "06 (seis) anos."]  
+    },
+    {   
+        question:"Qual o nome técnico da placa S-4?",
+        alter_correct:"Abastecimento.",
+        alter_incorrect:[
+            "Restaurante.",
+            "Pronto Socorro.",
+            "Serviço sanitário."]  
+    },
+    {   
+        question:"Os meios de ação que são utilizados para atingir os objetivos da direção defensiva:",
+        alter_correct:"Educação, fiscalização e engenharia.",
+        alter_incorrect:[
+            "Engenharia e policiamento.",
+            "Engenharia e conhecimento.",
+            "Meio defensivo."]  
+    },
+    {   
+        question:"O veículo automotor de transporte coletivo com capacidade para ate vinte passageiros é o:",
+        alter_correct:"Microônibus",
+        alter_incorrect:[
+            "ônibus bi-articulado.",
+            "ônibus.",
+            "Trem."]  
+    },
+    {   
+        question:"Quais são os erros mais comuns que ocorrem ao dirigir um veiculo automor e que podem gerar acidente?",
+        alter_correct:"Infrações do trânsito, atraso de horário e falta de cortesia.",
+        alter_incorrect:[
+            "Falta de cortesia e concentração.",
+            "Direção agrssiva e habilidade.",
+            "Direção defensiva e falta de cortesia."]  
+    },
+    {   
+        question:"O movimento executado pelo condutor parar alterar a posição em que o veículo está no momento em relação à via, denomina-se:",
+        alter_correct:"Manobra.",
+        alter_incorrect:[
+            "Estacionamento.",
+            "Transposição de faixa.",
+            "Conversão."]  
+    },
+    {   
+        question:"Qual a distância recomendada para inciar a sinalização, em uma avenida com velocidade máxima permitida de 60 quilo",
         alter_correct:"",
         alter_incorrect:[
             "",
             "",
             ""]  
     },
-    
 ]
 
-
+//#region Codigo que randomiza questões, alternativas e verifica se acertou ou errou
 const getId = (id) => document.getElementById(id);
 
 //------------executa ao apertar play-------------- >
@@ -473,10 +611,10 @@ let newQuestion = () =>{
         temp_array = randomArray(temp_array)
         return temp_array
     }  
-    i_quest = i_quest() //tranforma em array
 
-    new_array = i_quest
-    new_array.forEach((e)=>{
+    new_array = i_quest() //tranforma em array
+    
+    for (let e = 0; e < 30; e++) {
         
         let alter = []
         alter.push(questions[e].alter_correct, ...questions[e].alter_incorrect)    
@@ -490,7 +628,7 @@ let newQuestion = () =>{
             alter: alter
         }
         newquest.push(obj)
-    })
+    }
     return newquest
 }
 
@@ -598,3 +736,4 @@ function startResult() {
   
 }
 
+//#endregion
