@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://codesandbox.io">
-    <img src="https://github.com/user-attachments/assets/a76074a8-860e-40b4-b7fe-ca035e108a51" height="400px">
-    <img src="https://github.com/user-attachments/assets/2f8ca7a2-0bbc-467c-8515-ad919c5981f1" height="200px">
-    <img src="https://github.com/user-attachments/assets/a429d043-2c85-418d-92db-2c4177285838" height="200px">
+    <img src="https://github.com/user-attachments/assets/a76074a8-860e-40b4-b7fe-ca035e108a51" width="100%" height="100%">
+    <img src="https://github.com/user-attachments/assets/2f8ca7a2-0bbc-467c-8515-ad919c5981f1" width="49.7%" height="50%">
+    <img src="https://github.com/user-attachments/assets/a429d043-2c85-418d-92db-2c4177285838" width="49.7%" height="50%">
   </a>
 </p>
 
@@ -12,10 +12,11 @@
 ### Visite o projeto: (https://gabryelhenryque.github.io/Dia-da-mulher)
 
 ## Objetivo do site
-Criar uma experiência especial para o Dia Internacional da Mulher, onde sorteia uma mensagem carinhosa e motivadora, toda vez que apertar um botão.
+Criar uma experiência, onde simula um teste do DETRAN. O site sorteia questões do DETRAN e pontua se você passou ou não, com possibilidade de fazer o teste com questões completamente diferentes.
 
 ## Contexto
-Esse site foi criado com o intuito de colocar em pratica todo o meu primeiro conhecimento teorico que aprendi usando css e html.
+Esse site foi criado com o intuito de resolver um problema pessoal, onde teria que estudar as questões do DETRAN, então peguei algumas provas e juntei com minhas habilidades com Bootstrap e JavaScript.
+Transformando assim nesse mini Site.
 
 
 
