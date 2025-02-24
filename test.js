@@ -442,10 +442,9 @@ const questions = [
             "Julgará o registro do auto de infração.",
             "Arquivará o autor de infração."]  
     },
-    //--------------------------aqui--------------------------
     {   
         question:"A carteira Nacional de Habilitação permite ao condutor:",
-        alter_correct:"Dirigir veículos automotores para os quais foi habilitado, em todo o território n acional.",
+        alter_correct:"Dirigir veículos automotores para os quais foi habilitado, em todo o território nacional.",
         alter_incorrect:[
             "Dirigir veículos automotor apenas até 3.500 kg.",
             "Dirigir veículos automotores para os quais foi habilitado, apenas na localidade onde foi emitida.",
@@ -492,7 +491,7 @@ const questions = [
         alter_incorrect:[
             "Trocar a placa do veículo por ocasião da transferência de proriedade.",
             "Guardar distância de segurança lateral e frontal entre o seu e os demais veículos, bem como em relação ao borda da pista.",
-            "Nass  vias urbanas, posicionar-se mais à direita da via, quando for entrar para a esquerda em via de sentido único."]  
+            "Nas vias urbanas, posicionar-se mais à direita da via, quando for entrar para a esquerda em via de sentido único."]  
     },
     // {   
     //     question:"Qual o nome técnico da placa R-6C?",
@@ -551,23 +550,24 @@ const questions = [
             "Meio defensivo."]  
     },
     {   
-        question:"O veículo automotor de transporte coletivo com capacidade para ate vinte passageiros é o:",
+        question:"O veículo automotor de transporte coletivo com capacidade para até vinte passageiros é o:",
         alter_correct:"Microônibus",
         alter_incorrect:[
-            "ônibus bi-articulado.",
+            "ônibus biarticulado.",
             "ônibus.",
             "Trem."]  
     },
     {   
-        question:"Quais são os erros mais comuns que ocorrem ao dirigir um veículo automor e que podem gerar acidente?",
+        question:"Quais são os erros mais comuns que ocorrem ao dirigir um veículo automotor e que podem gerar acidente?",
         alter_correct:"Infrações do trânsito, atraso de horário e falta de cortesia.",
         alter_incorrect:[
             "Falta de cortesia e concentração.",
             "Direção agrssiva e habilidade.",
             "Direção defensiva e falta de cortesia."]  
     },
+    
     {   
-        question:"O movimento executado pelo condutor parar alterar a posição em que o veículo está no momento em relação à via, denomina-se:",
+        question:"O movimento executado pelo condutor para alterar a posição em que o veículo está no momento em relação à via, denomina-se:",
         alter_correct:"Manobra.",
         alter_incorrect:[
             "Estacionamento.",
@@ -575,7 +575,7 @@ const questions = [
             "Conversão."]  
     },
     {   
-        question:"Qual a distância recomendada para inciar a sinalização, em uma avenida com velocidade máxima permitida de 60 quilômetros por hora, em caso de acidente?",
+        question:"Qual a distância recomendada para iniciar a sinalização, em uma avenida com velocidade máxima permitida de 60 quilômetros por hora, em caso de acidente?",
         alter_correct:"60 passos largos ou 60 metros.",
         alter_incorrect:[
             "40 passos largos ou 40 metros.",
@@ -592,7 +592,7 @@ const questions = [
     // },
     {   
         question:"Existe, no Brasil, determinações que a indústria automobilística deve seguir para diminuir a emissão de gases de seus veículos.",
-        alter_correct:"CONAMA",
+        alter_correct:"CONAMA.",
         alter_incorrect:[
             "DETRAN.",
             "CONTRAN.",
@@ -612,7 +612,7 @@ const questions = [
         alter_incorrect:[
             "Pode ser aplicado por um condutor que não seja um profissional de saúde.",
             "É contra-indicado para os casos de amputação, avulsão e esmagamento.",
-            "É recomentadado para queimaduras de 2° grau."]  
+            "É recomendado para queimaduras de 2° grau."]  
     },
     {   
         question:"Revolver os conflitos sobre circunscrição e competência de trânsito no âmbito dos municipios é atribuição do:",
@@ -632,7 +632,7 @@ const questions = [
     },
     {   
         question:"Entendemos a bioética como:",
-        alter_correct:"Ramo do saber ético que se ocupa dos valores morais de respeito à pessoa humana no campo das ciências da vida",
+        alter_correct:"Ramo do saber ético que se ocupa dos valores morais de respeito à pessoa humana no campo das ciências da vida.",
         alter_incorrect:[
             "Ramo da ciência que estuda o ser vivo.",
             "Ramo do saber que não tem relação com a ecologia.",
@@ -643,17 +643,17 @@ const questions = [
         alter_correct:"Áreas da pele com formação de bolhas.",
         alter_incorrect:[
             "Dilatação das pupilas.",
-            "Ausência de ruídos respiratórios ou movimentos de ar pelo nariz ou ar pelo nariz ou boca",
+            "Ausência de ruídos respiratórios ou movimentos de ar pelo nariz ou ar pelo nariz ou boca.",
             "Ausência de pulsos e dos sons cardíacos audiveis.",
         ], 
     },
     {
-        question:"A quem caberá interpor recursos contra as deciões da JARI:",
+        question:"A quem caberá interpor recursos contra as decisões da JARI:",
         alter_correct:"O responsável pela infração e a autoridade de trânsito que impôs a penalidade.",
         alter_incorrect:[
             "Somente a autoridade que impôs a penalidade.",
-            "Somente o agente da autoridade de trânsito",
-            "O responsável pela via e o guarda-mirim.",
+            "Somente o agente da autoridade de trânsito.",
+            "O responsável pela via e o guarda mirim.",
         ], 
     },
     {
@@ -669,7 +669,7 @@ const questions = [
         question:"As linhas divisoras de fluxos seccionadas de cor amarela significam:",
         alter_correct:"Divisão de fluxos opostos e permissão de ultrapassagem.",
         alter_incorrect:[
-            "Divisão de fluxo opostos e proibição de ultrapassagem.",
+            "Divisão de fluxos opostos e proibição de ultrapassagem.",
             "Divisão de fluxos semelhantes e permissão de ultrapassagem.",
             "Divisão de fluxos semelhantes e proibição de ultrapassagem.",
         ], 
@@ -714,24 +714,24 @@ const questions = [
         question:"Para acionar o socorro especializado, ou seja, o Corpo de Bombeiros devemos ligar para o telefone:",
         alter_correct:"193.",
         alter_incorrect:[
-            "192",
-            "191",
-            "195",
+            "192.",
+            "191.",
+            "195.",
         ], 
     },
     
     //prova azul
     {
-        question:"Podemos considerar como um dos métodos para contenção de hemorragia extrerna:",
+        question:"Podemos considerar como um dos métodos para contenção de hemorragia externa:",
         alter_correct:"Aplicar compressão direta no ferimento, com uma gaze ou pano limpo.",
         alter_incorrect:[
-            "Aplicar o torniquete em carotídea.",
+            "Aplicar o torniquete em carotidea.",
             "Pressionar o ferimento até sentir o osso da área lesada.",
             "Abaixar o membro afetado.",
         ], 
     },
     {
-        question:"um motorista defensivo, ao perceber que pode ser prejudicado em seus direitos preferenciais no trânsito, deve;",
+        question:"Um motorista defensivo, ao perceber que pode ser prejudicado em seus direitos preferenciais no trânsito, deve;",
         ater_correct:"Ceder seu direito ao motorista errado e evitar o acidente.",
         alter_incorrect:[
             "Procurar o órgão de trânsito competente e realizar denúncia formal.",
@@ -740,7 +740,7 @@ const questions = [
         ], 
     },
     {
-        question:"A Semana Nacional de trânsito é comemorada anualmente no periodo compreendido entre:",
+        question:"A semana Nacional de trânsito é comemorada anualmente no periodo compreendido entre:",
         alter_correct:"18 e 25 de setembro.",
         alter_incorrect:[
             "16 e 24 de outubro.",
@@ -767,7 +767,7 @@ const questions = [
         ], 
     },
     {
-        question:"A distância de segurança é aquele que permite um tempo para reagir e acionar os freios do veículo de passeio ou leve de modo a pará-lo com segurança. Em condições normais,o tempo para manter a distância segura é de aproximadamente:",
+        question:"A distância de segurança é aquele que permite um tempo para reagir e acionar os freios do veículo de passeio ou leve de modo à pará-lo com segurança. Em condições normais, o tempo para manter a distância segura é de aproximadamente:",
         alter_correct:"Dois segundos.",
         alter_incorrect:[
             "Quarenta segundos.",
@@ -780,7 +780,7 @@ const questions = [
         alter_correct:"Utilizar as palas de proteção interna do veículo (quebra-sol).",
         alter_incorrect:[
             "Desvia a visão para o centro da via.",
-            "Desviar a visão opara o acostamento da direita ou da esquerda, dependendo da mão de direção em que o condutor se encontra.",
+            "Desviar a visão para o acostamento da direita ou da esquerda, dependendo da mão de direção em que o condutor se encontra.",
             "Acender os faróis do veículo em luz baixa.",
         ], 
     },
@@ -821,16 +821,16 @@ const questions = [
     //     ], 
     // },
     {
-        question:"Ocorrendo um choque com um poste, onde os cabos elétricos de alta voltagem se romperam e ficaram energizados sobre o veículo. Qual é o procedimento mais seguro a ser adotado pelas pessoas que se encontram  no interior deste veículo, considerando que os pneus estajam intactos e não haja risco de vazamento de combustivel?",
-        alter_correct:"Permanecer no interior do veículo até a chegada de secorro.",
+        question:"Ocorrendo um choque com um poste, onde os cabos elétricos de alta voltagem se romperam e ficaram energizados sobre o veículo. Qual é o procedimento mais seguro a ser adotado pelas pessoas que se encontram no interior deste veículo, considerando que os pneus estajam intactos e não haja risco de vazamento de combustivel?",
+        alter_correct:"Permanecer no interior do veículo até a chegada de socorro.",
         alter_incorrect:[
             "Sair do veículo, afastando-se imediatemente do local.",
             "Remover os cabos, utilizando-se de uma madeira molhada.",
-            "Subir no teto do veículo mantendo-se calçado",
+            "Subir no teto do veículo mantendo-se calçado.",
         ], 
     },
     {
-        question:"Nos motores atuais são utilizados dois sitemas de inflamação que são:",
+        question:"Nos motores atuais são utilizados dois sistemas de inflamação que são:",
         alter_correct:"Ignição e compressão.",
         alter_incorrect:[
             "Compressão e eletrificação.",
@@ -840,7 +840,7 @@ const questions = [
     },
     {
         question:"Para habilitar-se na categoria 'D', o condutor deverá:",
-        alter_correct:"Estar habilitado, no mínimo, há dois anos na categoria 'B', ou há um ano na categoria 'C'",
+        alter_correct:"Estar habilitado, no mínimo, há dois anos na categoria 'B', ou há um ano na categoria 'C'.",
         alter_incorrect:[
             "Não ter cometido no último ano duas infrações gravíssimas ou duas graves.",
             "Ser maior de 18 (dezoito) anos.",
@@ -848,8 +848,8 @@ const questions = [
         ], 
     },
     {
-        question:"Poderá ser aplicada penalidade de cassação do documento de habilitação.",
-        alter_correct:"Quando o condutor, estando com o dirigir suspenso, conduzir qualquer veículo.",
+        question:"Poderá ser aplicada penalidade de cassação do documento de habilitação:",
+        alter_correct:"Quando o condutor, estando com o direito de dirigir suspenso, conduzir qualquer veículo.",
         alter_incorrect:[
             "Quando o condutor for encontrado dirigindo sob efeito de substância tóxica ou alcoólica, pela primeira vez.",
             "Quando o condutor for encontrado dirigindo sem os documentos de habilitação.",
@@ -857,8 +857,8 @@ const questions = [
         ], 
     },
     {
-        question:"A sinalização horizontal destinada a orientar os sentidos de trânsito, direcionando a circulação dos veículos é denominada de: ",
-        alter_correct:"Marca de canalização.",
+        question:"A sinalização horizontal destinada a orientar os sentidos de trânsito, direcionando a circulação dos veículos é denominada de:",
+        alter_correct:"Marca de cinalização.",
         alter_incorrect:[
             "Placa de regulamentação.",
             "Marcação da área de conflito.",
@@ -866,7 +866,7 @@ const questions = [
         ], 
     },
     {
-        question:"Tipo de via urbana destinada a coletar e distribuir o trânsito, que tenha necessidade de entrar ou sair das vias  de maior fluxo, possibilitando o trânsito dentro das regiões da cidade:",
+        question:"Tipo de via urbana destinada a coletar e distribuir o trânsito, que tenha necessidade de entrar ou sair das vias de maior fluxo, possibilitando o trânsito dentro das regiões da cidade:",
         alter_correct:"Via coletora.",
         alter_incorrect:[
             "Via arterial.",
@@ -876,7 +876,7 @@ const questions = [
     },
     {
         question:"O condutor de veículo destinado à condução de escolares, deverá:",
-        alter_correct:"Não ter cometido nenhuma infração grave ou gravíssima, ou ser reicindente em infrações médias durante os doze últimos meses.",
+        alter_correct:"Não ter cometido nenhuma infração grave ou gravíssima, ou ser reincidente em infrações médias durante os doze últimos meses.",
         alter_incorrect:[
             "Ter idade superior a 18 anos.",
             "Ser aprovado no curso destinado para condutores de veículo de transporte coletivo de passageiros.",
@@ -894,7 +894,7 @@ const questions = [
     },
     {
         question:"Para garantir a segurança de todos, em um acidente, o que não podemos fazer?",
-        alter_correct:"Iniciar os procedimentos de socorro à vitima,independentemente, de ter sinalizado o local.",
+        alter_correct:"Iniciar os procedimentos de socorro à vitima, independentemente, de ter sinalizado o local.",
         alter_incorrect:[
             "Sinalizar o local do acidente, a fim de que curiosos não parem seus veículos e obstruam a via.",
             "Manter, dentro do possível, as vias livres para o tráfego fluir.",
@@ -907,7 +907,7 @@ const questions = [
         alter_incorrect:[
             "Habilidade e educação.",
             "Meio defensivo.",
-            "Emgenharia e policiamento.",
+            "Engenharia e policiamento.",
         ], 
     },
     // {
@@ -920,7 +920,7 @@ const questions = [
     //     ], 
     // },
     {
-        question:"Qual a distância recomendada para inciar a sinalização, em uma rua com velocidade máxima permitida de 40 quilômetros por hora,em caso de acidente?",
+        question:"Qual a distância recomendada para inciar a sinalização, em uma rua com velocidade máxima permitida de 40 quilômetros por hora, em caso de acidente?",
         alter_correct:"40 passos largos ou 40 metros.",
         alter_incorrect:[
             "30 passos largos ou 30 metros.",
@@ -934,12 +934,12 @@ const questions = [
         alter_incorrect:[
             "O condutor dirigir sem atenção e sem os cuidaos indispensáveis à segurança do trânsito.",
             "O condutor deixa de preservar o local do acidente.",
-            "o condutor atirar do veículo objetos na via.",
+            "O condutor atirar do veículo objetos na via.",
         ], 
     },
     {
         question:"Além de orientar os condutores e pedrestres para obedecerem às Leis de Trânsito, o agente de trânsito deve ainda:",
-        alter_correct:"Autuar os infratores para garantir a fluidez e segurança no trânsito.",
+        alter_correct:"Atuar os infratores para garantir a fluidez e segurança no trânsito.",
         alter_incorrect:[
             "Criar áreas de estacionamento.",
             "Criar leis para os pedrestres e motociclistas.",
@@ -948,7 +948,7 @@ const questions = [
     },
     {
         question:"Resolver os conflitos sobre circunscrição e competência de trânsito no âmbito dos municípios é atribuição do:",
-        alter_correct:"Conselho Estadual de TrÂnsito (CETRAN).",
+        alter_correct:"Conselho Estadual de Trânsito (CETRAN).",
         alter_incorrect:[
             "Departamento Estadual de Trânsito (DETRAN).",
             "Departamento Nacional de Trânsito (DENATRAN).",
@@ -966,7 +966,7 @@ const questions = [
     },
     {
         question:"São órgãos de controle ambiental:",
-        alter_correct:"IBAMA E CONAMA",
+        alter_correct:"IBAMA E CONAMA.",
         alter_incorrect:[
             "Polícia Militar e IBAMA.",
             "FUNAI e IBAMA.",
@@ -979,9 +979,10 @@ const questions = [
         alter_incorrect:[
             "Acender a luz baixa do farol.",
             "Diminuir a distância em relação ao veículo da frente.",
-            "Aumentar a velocidade para se livrar do tracho com ventos.",
+            "Aumentar a velocidade para se livrar do trecho com ventos.",
         ], 
     },
+        
    //prova cinza
     {
         question:"Sobre trânsito e cidadania, assinale a alternativa INCORRETA:",
@@ -1038,7 +1039,7 @@ const questions = [
         ], 
     },
     {
-        question:"Ocorrendo defeito mecânico ou esvaziamento do pneu,o condutor defensivo deve posicionar seu veículo:",
+        question:"Ocorrendo defeito mecânico ou esvaziamento do pneu, o condutor defensivo deve posicionar seu veículo:",
         alter_correct:"No acostamento ou faixa mais à direita, ainda que esteja sujeito a maiores danos no pneu furado, por exemplo.",
         alter_incorrect:[
             "Na faixa mais à direita, sem necessariamente ter que  sinalizar o local.",
@@ -1047,23 +1048,24 @@ const questions = [
         ], 
     },
     {
-        question:"As faixas da esquerda deverão ser usadas, em uma pista de rolamneto com várias faixas de trânsito no mesmo sentido, para:",
+        question:"As faixas da esquerda deverão ser usadas, em uma pista de rolamento com várias faixas de trânsito no mesmo sentido, para:",
         alter_correct:"Veículos de maior velocidade e para ultrapassagem.",
         alter_incorrect:[
             "Circulação dos veículos de passageiro.",
-            "Cirulação de bicicletas.",
+            "Circulação de bicicletas.",
             "Veículos lentos e pesados circularem.",
         ], 
     },
     {
         question:"Quanto à aprendizagem de direção veicular, marque a alternativa correta:",
-        alter_correct:"os veículos destinados á formação de condutores serão identificados por uma faixa amarela de vinte centímetros de largura, pintada ao logo da carroceiria.",
+        alter_correct:"os veículos destinados á formação de condutores serão identificados por uma faixa amarela de vinte centímetros de largura, pintada ao logo da carroceria.",
         alter_incorrect:[
             "Poderá realizar-se em qualquer horário e local, excluindo as redovias.",
             "No veículos de CFC, durante a aula prática de direção, poderão esta o aprendiz, o instrutor e dois acompanhantes.",
             "A licença de aprendizagem será expedida automaticamente após aprovação na prática de direção veicular.",
         ], 
     },
+    //--------------------------aqui--------------------------
     {
         question:"não se enquadra entre os efeitos danosos do excesso de ruídos;",
         alter_correct:"Relaxamento muscular.",
