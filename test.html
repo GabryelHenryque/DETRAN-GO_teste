@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-bs-theme="auto" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>questions</title>
 </head>
-<body style="background-color: #F2F2F2">
+<body class="bg-dark-subtle">
     <header>
-        <div class="container mw-100 shadow text-center bg-light">    
+        <div class="container mw-100 shadow text-center bg-body">    
             <img src="./img/Detran-GO-title.svg" class="img-fluid" alt="logo do detran">
         </div>
     </header>
@@ -17,7 +17,7 @@
     <main>
        
         <h1 class="text-center p-3" style="font-family: 'Code Bold', sans-serif;" id="title">QUESTÕES</h1>
-        <div class="container shadow bg-light p-3"   id="container_quests"></div>
+        <div class="container shadow bg-body p-3"   id="container_quests"></div>
 
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -47,6 +47,13 @@
                 <li class="nav-item"><a href="./home.html" class="nav-link px-2 text-muted">Home</a></li>
                 <li class="nav-item"><a href="./test.html" class="nav-link px-2 text-muted">tests</a></li>
                 <li class="nav-item"><a href="https://github.com/GabryelHenryque/detram-teste" class="nav-link px-2 text-muted">Github</a></li>
+                <li>
+                    <button type="button" class="btn text-center material-symbols-outlined" aria-expanded="true" data-bs-target="bd-theme-text" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)"  id="theme-toggler">dark_mode</button>    
+                    <ul class="dropdown-menu" aria-labelledby="bd-theme-text">
+                        <li> <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">light</button></li>
+                        <li> <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">dark</button></li>
+                      </ul>
+                </li>
               </ul>
               <p class="text-center text-muted">© Copyright - Todos os direitos reservados a GHn. 2025</p>
             </footer>
@@ -60,6 +67,41 @@
         const myInput = document.getElementById('myInput')
         
         myModal.addEventListener('shown.bs.modal', () => { myInput.focus() })
+
+        //dark-mode bootstrap
+        const themeToggler = document.getElementById("theme-toggler");
+        const themeButtons = document.querySelectorAll("[data-bs-theme-value]");
+        const htmlElement = document.documentElement;
+
+        // Carregar tema salvo
+        const savedTheme = localStorage.getItem("theme") || "dark";
+        htmlElement.setAttribute("data-bs-theme", savedTheme);
+
+        // Atualiza o botão conforme o tema
+        function updateButtonIcon(theme) {
+            themeToggler.textContent = theme === "dark" ? "dark_mode" : "light_mode";
+        }
+        updateButtonIcon(savedTheme);
+
+        // Evento de clique nos botões do dropdown
+        themeButtons.forEach(button => {
+            button.addEventListener("click", () => {
+                const selectedTheme = button.getAttribute("data-bs-theme-value");
+                
+                // Aplicar o tema
+                if (selectedTheme === "auto") {
+                    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+                    htmlElement.setAttribute("data-bs-theme", prefersDark ? "dark" : "light");
+                    localStorage.setItem("theme", prefersDark ? "dark" : "light");
+                } else {
+                    htmlElement.setAttribute("data-bs-theme", selectedTheme);
+                    localStorage.setItem("theme", selectedTheme);
+                }
+
+                // Atualizar o ícone do botão
+                updateButtonIcon(selectedTheme);
+            });
+        });
 
     </script>
 </body>

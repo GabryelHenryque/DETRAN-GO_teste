@@ -1065,9 +1065,8 @@ const questions = [
             "A licença de aprendizagem será expedida automaticamente após aprovação na prática de direção veicular.",
         ], 
     },
-    //--------------------------aqui--------------------------
     {
-        question:"não se enquadra entre os efeitos danosos do excesso de ruídos;",
+        question:"não se enquadra entre os efeitos danosos do excesso de ruídos:",
         alter_correct:"Relaxamento muscular.",
         alter_incorrect:[
             "Dores de cabeça.",
@@ -1084,17 +1083,17 @@ const questions = [
             "Prejuízos aos rios e aos mares.",
         ], 
     },
+    // {
+    //     question:"Se houver perigo de incêndio em um veículo acidentado, que atitudes você deve tomar?",
+    //     alter_correct:"Afastar curiosos e se for fácil e seguro, desligar o motor do veículo acidentado.",
+    //     alter_incorrect:[
+    //         "Pegar o extintor e ficar próximo de veículo acidentado.",
+    //         "Ficar próximo do veículo acidentado com baldes de água.",
+    //         "Caso estaja nervoso fumar no local. para aliviar a tensão.",
+    //     ], 
+    // },
     {
-        question:"Se houver perigo de incêndio em um veículo acidentado, que atitudes você deve tomar?",
-        alter_correct:"Afastar curiosos e se for fácil e seguro, desligar o motor do veículo acidentado.",
-        alter_incorrect:[
-            "Pegar o extintor e ficar próximo de veículo acidentado.",
-            "Ficar próximo do veículo acidentado com baldes de água.",
-            "Caso estaja nervoso fumar no local. para aliviar a tensão.",
-        ], 
-    },
-    {
-        question:"Qual o percentual será depositado na conta do fundo de âmbito nacional, das muitas de trânsito arrecadadas, administrados pelo DENATRAN, destinado à segurança e educação do trânsito?",
+        question:"Qual o percentual será depositado na conta do fundo de âmbito nacional, das multas de trânsito arrecadadas, administrados pelo DENATRAN, destinado à segurança e educação do trânsito?",
         alter_correct:"5%",
         alter_incorrect:[
             "15%",
@@ -1103,7 +1102,7 @@ const questions = [
         ], 
     },
     {
-        question:"Sobre os candidatos á obtenção da CNH, podemos aficar que:",
+        question:"Sobre os candidatos á obtenção da CNH, podemos afirmar que:",
         alter_correct:"Os exames de sanidade física e mental, do candidato portador de necessidade especiais, serão realizados por uma junta médica.",
         alter_incorrect:[
             "O candidato com visão monocular poderá exercer atividade remunerada em um ônibus.",
@@ -1138,20 +1137,20 @@ const questions = [
             "100 km /h.",
         ], 
     },
-    {
-        question:"Qual o nome técnico da placa S-14?",
-        alter_correct:"Ponto de parada.",
-        alter_incorrect:[
-            "Abastecimento.",
-            "Transporte escolar.",
-            "Rodoviária.",
-        ], 
-    },
+    // {
+    //     question:"Qual o nome técnico da placa S-14?",
+    //     alter_correct:"Ponto de parada.",
+    //     alter_incorrect:[
+    //         "Abastecimento.",
+    //         "Transporte escolar.",
+    //         "Rodoviária.",
+    //     ], 
+    // },
     {
         question:"De acordo com a Legislação de Trãnsito, os veículos quanto à categoria, classificam-se em:",
         alter_correct:"Oficial, missão diplomática, particular, aluguel e aprendizagem.",
         alter_incorrect:[
-            "Oficial, aluguel, passageiro, carga, misto, de trção e competição.",
+            "Oficial, aluguel, passageiro, carga, misto, de tração e competição.",
             "Carga, misto, reboque e sem-reboque.",
             "Oficial, missão diplomática, aluguel, passageiro, carga, misto e de polícia.",
         ], 
@@ -1171,7 +1170,7 @@ const questions = [
         alter_incorrect:[
             "Possibilitar a ventilação do pneus.",
             "Possibilitar o trânsito em superfícies irregulares.",
-            "Facilitara as conversões e deslocamentos laterais do veículos.",
+            "Facilitar as conversões e deslocamentos laterais do veículos.",
         ], 
     },
     // {
@@ -1184,7 +1183,7 @@ const questions = [
     //     ], 
     // },
     {
-        question:"Quando receber uma chamada pela telegone celular, estando com o veículo em movimento, o procedimento corrote do condutor é:",
+        question:"Quando receber uma chamada pela telefone celular, estando com o veículo em movimento, o procedimento correto do condutor é:",
         alter_correct:"Parar o veículo em local seguro e atender a ligação.",
         alter_incorrect:[
             "Atender com a mão esquerda e em alta velocidade.",
@@ -1210,15 +1209,15 @@ const questions = [
             "Alternador.",
         ], 
     },
-    {
-        question:"Qual o nome técnico da placa R-23?",
-        alter_correct:"Conserve-se à direita.",
-        alter_incorrect:[
-            "Ónibus, caminhôes e veículos de grande porte mantenham-se à direita.",
-            "Mantenha-se no acostamento.",
-            "Circulação exclusiva de caminhões pela direita.",
-        ], 
-    },
+    // {
+    //     question:"Qual o nome técnico da placa R-23?",
+    //     alter_correct:"Conserve-se à direita.",
+    //     alter_incorrect:[
+    //         "Ónibus, caminhôes e veículos de grande porte mantenham-se à direita.",
+    //         "Mantenha-se no acostamento.",
+    //         "Circulação exclusiva de caminhões pela direita.",
+    //     ], 
+    // },
     {
         question:"Os sinais sonoros executados por buzinas, deverão ser em toque breve e destinados para:",
         alter_correct:"Fazer advertências necessárias, a fim de evitar acidentes.",
@@ -1308,32 +1307,32 @@ let newQuestionn = newQuestion()
 
 newQuestionn.forEach( (e,i) => {
     container_quest.innerHTML += `
-    <div class="container shadow-sm mb-2  bg-light ">
+    <div class="container shadow-sm mb-2  bg-body">
         <p class="fs-5"><span>${i + 1} - </span>${e.question}</p>
         <!--questoes-->
         
             <div class="form-check" >
                 <input class="form-check-input" type="radio" name="alterRadio-${i}" id="alterRadioA_${i}" value="${e.alter[0]}">
-                <label class="form-check-label" for="alterRadioA_${i}" id="labelRadioA_${i}">A - ${e.alter[0]}</label>
-                <label id="correctionA_${i}"></label>
+                <label class="form-check-label" for="alterRadioA_${i}" id="labelRadioA_${i}">A - ${e.alter[0]} <label id="correctionA_${i}"></label> </label>
+               
             </div>
 
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="alterRadio-${i}" id="alterRadioB_${i}" value="${e.alter[1]}">
-                <label class="form-check-label" for="alterRadioB_${i}" id="labelRadioB_${i}">B - ${e.alter[1]}</label>
-                <label id="correctionB_${i}"></label>
+                <label class="form-check-label" for="alterRadioB_${i}" id="labelRadioB_${i}">B - ${e.alter[1]} <label id="correctionB_${i}"></label> </label>
+                
             </div>
 
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="alterRadio-${i}" id="alterRadioC_${i}" value="${e.alter[2]}">
-                <label class="form-check-label" for="alterRadioC_${i}" id="labelRadioC_${i}">C - ${e.alter[2]}</label>
-                <label id="correctionC_${i}"></label>
+                <label class="form-check-label" for="alterRadioC_${i}" id="labelRadioC_${i}">C - ${e.alter[2]} <label id="correctionC_${i}"></label> </label>
+                
             </div>
 
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="alterRadio-${i}" id="alterRadioD_${i}" value="${e.alter[3]}">
-                <label class="form-check-label" for="alterRadioD_${i}" id="labelRadioD_${i}">D - ${e.alter[3]}</label>
-                <label id="correctionD_${i}"></label>
+                <label class="form-check-label" for="alterRadioD_${i}" id="labelRadioD_${i}">D - ${e.alter[3]} <label id="correctionD_${i}"></label> </label>
+                
             </div>
     </div>
     `
