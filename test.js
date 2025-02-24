@@ -32,7 +32,7 @@ const questions = [
     //         "Passagem sinalizada de pedestres."]  
     // },
     {
-        question:"Os requisitos necessários, dentro outros, para obter a C.N.H. são:",
+        question:"Os requisitos necessários, dentre outros, para obter a C.N.H. são:",
         alter_correct:"Saber ler e escrever.",
         alter_incorrect:[
             "Ter concluído o Ensino Médio.",
@@ -65,14 +65,14 @@ const questions = [
     },
     {
         question:"As vias rurais pavimentadas são definidas como:",
-        alter_correct:"Rodobias.",
+        alter_correct:"Rodovias.",
         alter_incorrect:[
             "Estradas.",
             "Vias coletoras.",
             "Vias de trânsito rápido."]  
     },
     {
-        question:"A cada infração gravíssima são computados no protuário do condutor:",
+        question:"A cada infração gravíssima são computados no prontuário do condutor:",
         alter_correct:"7 pontos.",
         alter_incorrect:[
             "3 pontos.",
@@ -120,7 +120,7 @@ const questions = [
             "Luzes de posição apagadas."]  
     },
     {
-        question:"Ao se aproximar de um cruzamento, uma forma de segura de agir do condutor é:",
+        question:"Ao se aproximar de um cruzamento, uma forma segura de agir do condutor é:",
         alter_correct:"Reduzir a velocidade.",
         alter_incorrect:[
             "Acionar a buzina.",
@@ -169,11 +169,11 @@ const questions = [
     },
     {
         question:"Na maioria das regiões do Brasil, os telefones de Bombeiros, SAMU e Polícia são:",
-        alter_correct:"Bombeiros: 193, SAMU:192, Polícia: 190.",
+        alter_correct:"Bombeiros: 193, SAMU: 192, Polícia: 190.",
         alter_incorrect:[
             "Bombeiros: 190, SAMU: 192, Polícia: 191.",
             "Bombeiros: 193, SAMU: 191, Polícia: 190.",
-            "Bombeiros; 190, SAMU: 193, Polícia: 191."]  
+            "Bombeiros: 190, SAMU: 193, Polícia: 191."]  
     },
     {   
         question:"São fontes de poluição sonora veicular:",
@@ -188,7 +188,7 @@ const questions = [
         alter_correct:"Os veículos automotores e indústrias.",
         alter_incorrect:[
             "As fábricas.",
-            "As usinas termelétrica.",
+            "As usinas termelétricas.",
             "As queimadas."]  
     },
     {   
@@ -201,7 +201,7 @@ const questions = [
     },
     {   
         question:"No trânsito, não basta ser bom condutor. É necessário adotar uma atitude pessoal que melhore a convivência no trânsito, inclusive diante dos erros cometidos por outros usuários da via, evitando, assim, possiveis sinistro. Essa atitude pessoal deve ser de:",
-        alter_correct:"Tolerância",
+        alter_correct:"Tolerância.",
         alter_incorrect:[
             "Agressividade.",
             "Ousadia.",
@@ -216,7 +216,7 @@ const questions = [
             "Velas e ventilação circulante"]  
     },
     {   
-        question:"A baixo calibragem dos pneus:",
+        question:"A baixa calibragem dos pneus:",
         alter_correct:"Reduz sua vida útil.",
         alter_incorrect:[
             "Aumenta a capacidade de frenagem.",
@@ -232,23 +232,23 @@ const questions = [
             "Pelo sistema de ventilação interna."]  
     },
     {   
-        question:"De onde provém a eletricidade necessária para ocionar o motor de arranque?",
+        question:"De onde provém a eletricidade necessária para acionar o motor de arranque?",
         alter_correct:"Da bateria.",
         alter_incorrect:[
             "Do alternador.",
-            "Da ignição eletrônica",
-            "Das velas"]  
+            "Da ignição eletrônica.",
+            "Das velas."]  
     },
     
     
     //prova laranja
     {   
         question:"Para acionar a Polícia Rodoviária Federal, devemos ligar para o telefone:",
-        alter_correct:"191",
+        alter_correct:"191.",
         alter_incorrect:[
-            "192",
-            "195",
-            "190"]  
+            "192.",
+            "195.",
+            "190."]  
     },
     {   
         question:"O ofuscamento da visão do condutor do veículo pode ser evitado, tornando-se o seguinte cuidado:",
@@ -286,17 +286,17 @@ const questions = [
         question:"Para evitar a colisão com o veículo que vai à frente, o motorista deverá:",
         alter_correct:"Manter distância de segurança.",
         alter_incorrect:[
-            "Manter a velociade do seu veículo menos que a velocidade máxima permitida para a via.",
+            "Manter a velocidade do seu veículo menor que a velocidade máxima permitida para a via.",
             "Dar sinal de luz para o veículo que vai à frente.",
-            "Ultrapassá-lo no menos tempo possível."]  
+            "Ultrapassá-lo no menor tempo possível."]  
     },
     {   
         question:"Em que tipo de refrigeração, o motor utiliza o termômetro?",
         alter_correct:"A água.",
         alter_incorrect:[
-            "A ar condicionado.",
-            "A ar.",
-            "Elétrica."]  
+            "O ar condicionado.",
+            "O ar.",
+            "A Elétrica."]  
     },
     {   
         question:"Em rodovias, sem local apropriado para retorno ou para entrar á esquerda, o condutor deverá aguardar a oportunidade para cruzar a pista, parando o veículo:",
@@ -318,20 +318,20 @@ const questions = [
         question:"Para trafegar com margem de segurança, a atitude correta do condutor depende de:",
         alter_correct:"Observação, previsão e decisão.",
         alter_incorrect:[
-            "Conservação do veiculo, técnica, decisão e fones de ouvido.",
+            "Conservação do veículo, técnica, decisão e fones de ouvido.",
             "Conservação do veículo e da posição da cabeça.",
             "Do aumento da velocidade, das condiçães das vias e dos fatores externos."]  
     },
     {   
-        question:"É proibudi a todo condutor de veículo:",
-        alter_correct:"Usar a buzina entre vinte e duas e seis horas.",
+        question:"É proibido a todo condutor de veículo:",
+        alter_correct:"Usar a buzina entre vinte e duas(22h) e seis horas(6h).",
         alter_incorrect:[
             "Dirigir com as duas mãos no volante.",
             "Usar o cinto de segurança.",
             "Transitar com farol baixo em vias com iluminação pública."]  
     },
     {   
-        question:"De acordo com a Lesgislação de Trânsito em vígor, o tempo da parada do veiculo deve ser:",
+        question:"De acordo com a Lesgislação de Trânsito em vígor, o tempo da parada do veículo deve ser:",
         alter_correct:"O necessário para efetuar o embarque e desembarque de passageiros.",
         alter_incorrect:[
             "O necessário para a carga e descarga, e embarque e desembarque de passageiros.",
@@ -347,12 +347,12 @@ const questions = [
     //         "Área de manutenção."]  
     // },
     {   
-        question:"Se houver perigo de incêndio em um veículo acidentado, que atitudes vocÊ deve tornar?",
+        question:"Se houver perigo de incêndio em um veículo acidentado, que atitudes você deve tomar?",
         alter_correct:"Afastar curiosos e se for fácil e seguro, desligar o motor do veículo acidentado.",
         alter_incorrect:[
             "Ficar próximo do veículo acindentado com baldes de água.",
             "Caso estaja nervoso fumar no local, para aliviar a tensão.",
-            "Aguardar junto ao veículos acidentado a chegada di corpo de bombeiros."]  
+            "Aguardar junto ao veículos acidentado a chegada do corpo de bombeiros."]  
     },
     {   
         question:"O equipamento de segurança do veículo, cuja finalidade é limitar a movimentação dos ocupantes deste, em caso de acidentes ou em freadas bruscas é o:",
@@ -380,7 +380,7 @@ const questions = [
     },
     {   
         question:"Qual a distância recomendada para iniciar a sinalização, em uma rodovia com velocidade máxima permitida de 100 quilômetros por hora, em caso de acidente?",
-        alter_correct:"100 passos largos ou 100 metros",
+        alter_correct:"100 passos largos ou 100 metros.",
         alter_incorrect:[
             "60 passos largos ou 60 metros.",
             "50 passos largos ou 50 metros.",
@@ -396,11 +396,11 @@ const questions = [
     },
     {   
         question:"A que distância, estacionar um automóvel afastado da guia da calçada, configura infração de trânsito?",
-        alter_correct:"A partir de cinquenta centímetros.",
+        alter_correct:"A partir de cinquenta centímetros (50cm).",
         alter_incorrect:[
-            "A partir de trinta centímetros.",
-            "Somente a partir de um metro e cinquenta centímetros.",
-            "A partir de quarenta centímetros."]  
+            "A partir de trinta centímetros (30cm).",
+            "Somente a partir de um metro e cinquenta centímetros (1,50cm).",
+            "A partir de quarenta centímetros (40cm)."]  
     },
     {   
         question:"Um silvo longo significa:",
@@ -419,36 +419,37 @@ const questions = [
             "Lavar os pára-brisas semanalmente."]  
     },
     {   
-        question:"Sobre a circulação de ciclimotor é correto afirmar.",
+        question:"Sobre a circulação de ciclomotor é correto afirmar.",
         alter_correct:"Este veículo deve ser conduzido pela direita da pista de rolamento.",
         alter_incorrect:[
             "A utilização do capacete não é obrigatória nestes veículos.",
-            "É proibida sua circulação em vias arterials e coletoras.",
+            "É proibida sua circulação em vias arteriais e coletoras.",
             "Não é permitido transportar passageiro neste veículo."]  
     },
     {   
         question:"Produtos perigosos são aqueles que:",
         alter_correct:"Apresentam risco ao meio ambiente.",
         alter_incorrect:[
-            "Podemos consumr sem perigo para a vida.",
+            "Podemos consumir sem perigo para a vida.",
             "São preparados somente para tranquilizar.",
             "São recomendados pelos médicos."]  
     },
     {   
-        question:"Se por motivo de força maior, o recurso interposto junto a JARI, não for julgado no prazo de 30 dias, a autoridade responsável pela penalidade, de oficio ou por solicitação do recrrente:",
+        question:"Se por motivo de força maior, o recurso interposto junto a JARI, não for julgado no prazo de 30 dias, a autoridade responsável pela penalidade, de oficio ou por solicitação do requerente:",
         alter_correct:"Concederá efeito suspensivo.",
         alter_incorrect:[
             "Remeterá o recurso para instância superior.",
             "Julgará o registro do auto de infração.",
-            "Arquivará o auto de infração."]  
+            "Arquivará o autor de infração."]  
     },
+    //--------------------------aqui--------------------------
     {   
-        question:"A carteira Nacional de Habilitação permite ao condutor.",
-        alter_correct:"Dirigir veículos automotores para os quais foi habilitado, em tod o território nacional.",
+        question:"A carteira Nacional de Habilitação permite ao condutor:",
+        alter_correct:"Dirigir veículos automotores para os quais foi habilitado, em todo o território n acional.",
         alter_incorrect:[
-            "Dirigir veiculos automotor apenas até 3.500 kg.",
-            "Dirigir veiculos automotores para os quais foi habilitado, apenas na localidade onde foi emitida.",
-            "Dirigir qualquer tipo de veiculo automotor em todo o território nacional."]  
+            "Dirigir veículos automotor apenas até 3.500 kg.",
+            "Dirigir veículos automotores para os quais foi habilitado, apenas na localidade onde foi emitida.",
+            "Dirigir qualquer tipo de veículo automotor em todo o território nacional."]  
     },
     {   
         question:"Qual o nome do vínculo permanente de subordinação dos individuos à autoridade de um Estado, que lhes dá proteção e reconhece seus direitos?",
@@ -471,7 +472,7 @@ const questions = [
     //Prova preta
     {   
         question:"Nos grandes centros urbanos, os principais causadores da poluição do ar são:",
-        alter_correct:"Os veiculos automotores.",
+        alter_correct:"Os veículos automotores.",
         alter_incorrect:[
             "As usinas termoelétricas.",
             "As queimadas.",
@@ -479,14 +480,14 @@ const questions = [
     },
     {   
         question:"O condutor prudente deve:",
-        alter_correct:"Manter o veiculo em perfeitas condições de uso.",
+        alter_correct:"Manter o veículo em perfeitas condições de uso.",
         alter_incorrect:[
             "Acelerar bruscamente ao efetuar as trocas de marcha.",
             "Transitar com os pneus abaixo de pressão recomendada pelo fabricante.",
             "Realizar aceleradas bruscas e frenagens com deslizamento de pneus."]  
     },
     {   
-        question:"É dever de todo condutor de veiculo:",
+        question:"É dever de todo condutor de veículo:",
         alter_correct:"transitar com velocidade máxima permitida para a vía, diante de escolar e onde haja grande movimentação de pedestres.",
         alter_incorrect:[
             "Trocar a placa do veículo por ocasião da transferência de proriedade.",
@@ -503,7 +504,7 @@ const questions = [
     // },
     {   
         question:"A respeito da faixa horizontal dos veículos destinados ao transporte escolar, é correto afirmar que:",
-        alter_correct:"Deverá ser de cor preta quando a carroceria do veiculo for pintada na cor amarela.",
+        alter_correct:"Deverá ser de cor preta quando a carroceria do veículo for pintada na cor amarela.",
         alter_incorrect:[
             "Deverá possuir o dístico escolar na cor azul.",
             "Deverá estar presente em toda a extensão da parte frontal, lateral e traseira do veículo.",
@@ -519,7 +520,7 @@ const questions = [
     },
     {   
         question:"A velocidade compativel com a segurança permite ao motorista:",
-        alter_correct:"Fazer uma manobra de emergência, quando houver necessidade, como frear ou desviar o veiculo de outro.",
+        alter_correct:"Fazer uma manobra de emergência, quando houver necessidade, como frear ou desviar o veículo de outro.",
         alter_incorrect:[
             "Chegar ao seu destino no menor tempo possível.",
             "Ter prioridade em situações de congestionamento sobre qualquer outro.",
@@ -558,7 +559,7 @@ const questions = [
             "Trem."]  
     },
     {   
-        question:"Quais são os erros mais comuns que ocorrem ao dirigir um veiculo automor e que podem gerar acidente?",
+        question:"Quais são os erros mais comuns que ocorrem ao dirigir um veículo automor e que podem gerar acidente?",
         alter_correct:"Infrações do trânsito, atraso de horário e falta de cortesia.",
         alter_incorrect:[
             "Falta de cortesia e concentração.",
@@ -692,7 +693,7 @@ const questions = [
         ], 
     },
     {
-        question:"Assinale a principal recomendação para a conservação do motor do veiculo:",
+        question:"Assinale a principal recomendação para a conservação do motor do veículo:",
         alter_correct:"Verificar, frequentemente, o nivel de óleo do motor.",
         alter_incorrect:[
             "Reapertar as juntas de vedação.",
@@ -752,7 +753,7 @@ const questions = [
         alter_correct:"Transitar com veículo sem catalisador.",
         alter_incorrect:[
             "Evitar aceleradas bruscas e frenagens excessivas.",
-            "Fazer a manutenção periódica do motor do veiculo.",
+            "Fazer a manutenção periódica do motor do veículo.",
             "Calibrar periodicamente os pneus.",
         ], 
     },
@@ -815,7 +816,7 @@ const questions = [
     //     alter_correct:"Circulação exclusiva de caminhão.",
     //     alter_incorrect:[
     //         "Área de estacionamento de veículos de carga.",
-    //         "Trânsito de veiculo de carga.",
+    //         "Trânsito de veículo de carga.",
     //         "Circulação exclusiva de veículos pesados.",
     //     ], 
     // },
@@ -823,9 +824,9 @@ const questions = [
         question:"Ocorrendo um choque com um poste, onde os cabos elétricos de alta voltagem se romperam e ficaram energizados sobre o veículo. Qual é o procedimento mais seguro a ser adotado pelas pessoas que se encontram  no interior deste veículo, considerando que os pneus estajam intactos e não haja risco de vazamento de combustivel?",
         alter_correct:"Permanecer no interior do veículo até a chegada de secorro.",
         alter_incorrect:[
-            "Sair do veiculo, afastando-se imediatemente do local.",
+            "Sair do veículo, afastando-se imediatemente do local.",
             "Remover os cabos, utilizando-se de uma madeira molhada.",
-            "Subir no teto do veiculo mantendo-se calçado",
+            "Subir no teto do veículo mantendo-se calçado",
         ], 
     },
     {
@@ -848,7 +849,7 @@ const questions = [
     },
     {
         question:"Poderá ser aplicada penalidade de cassação do documento de habilitação.",
-        alter_correct:"Quando o condutor, estando com o dirigir suspenso, conduzir qualquer veiculo.",
+        alter_correct:"Quando o condutor, estando com o dirigir suspenso, conduzir qualquer veículo.",
         alter_incorrect:[
             "Quando o condutor for encontrado dirigindo sob efeito de substância tóxica ou alcoólica, pela primeira vez.",
             "Quando o condutor for encontrado dirigindo sem os documentos de habilitação.",
@@ -874,7 +875,7 @@ const questions = [
         ], 
     },
     {
-        question:"O condutor de veículo destinado à condução de esolares, deverá:",
+        question:"O condutor de veículo destinado à condução de escolares, deverá:",
         alter_correct:"Não ter cometido nenhuma infração grave ou gravíssima, ou ser reicindente em infrações médias durante os doze últimos meses.",
         alter_incorrect:[
             "Ter idade superior a 18 anos.",
@@ -895,7 +896,7 @@ const questions = [
         question:"Para garantir a segurança de todos, em um acidente, o que não podemos fazer?",
         alter_correct:"Iniciar os procedimentos de socorro à vitima,independentemente, de ter sinalizado o local.",
         alter_incorrect:[
-            "Sinalizar o local do acidente, a fim de que curiosos não parem seus veiculos e obstruam a via.",
+            "Sinalizar o local do acidente, a fim de que curiosos não parem seus veículos e obstruam a via.",
             "Manter, dentro do possível, as vias livres para o tráfego fluir.",
             "Iniciar a sinalização em um ponto em que os motoristas ainda não possam ver o acidente.",
         ], 
@@ -992,7 +993,7 @@ const questions = [
         ], 
     },
     {
-        question:"A sinalização horizontal de cor amarela, que assinala a área da pista, em que os condutores não devem parar e estacionar os veiculos, plejudicando a circulação, é denominada de:",
+        question:"A sinalização horizontal de cor amarela, que assinala a área da pista, em que os condutores não devem parar e estacionar os veículos, plejudicando a circulação, é denominada de:",
         alter_correct:"Marcação de área de conflito.",
         alter_incorrect:[
             "Faixa de pedrestre tipo zebrada.",
@@ -1056,7 +1057,7 @@ const questions = [
     },
     {
         question:"Quanto à aprendizagem de direção veicular, marque a alternativa correta:",
-        alter_correct:"os veiculos destinados á formação de condutores serão identificados por uma faixa amarela de vinte centímetros de largura, pintada ao logo da carroceiria.",
+        alter_correct:"os veículos destinados á formação de condutores serão identificados por uma faixa amarela de vinte centímetros de largura, pintada ao logo da carroceiria.",
         alter_incorrect:[
             "Poderá realizar-se em qualquer horário e local, excluindo as redovias.",
             "No veículos de CFC, durante a aula prática de direção, poderão esta o aprendiz, o instrutor e dois acompanhantes.",
@@ -1085,8 +1086,8 @@ const questions = [
         question:"Se houver perigo de incêndio em um veículo acidentado, que atitudes você deve tomar?",
         alter_correct:"Afastar curiosos e se for fácil e seguro, desligar o motor do veículo acidentado.",
         alter_incorrect:[
-            "Pegar o extintor e ficar próximo de veiculo acidentado.",
-            "Ficar próximo do veiculo acidentado com baldes de água.",
+            "Pegar o extintor e ficar próximo de veículo acidentado.",
+            "Ficar próximo do veículo acidentado com baldes de água.",
             "Caso estaja nervoso fumar no local. para aliviar a tensão.",
         ], 
     },
@@ -1277,7 +1278,7 @@ let newQuestion = () =>{
     }  
 
     new_array = i_quest() //tranforma em array
-
+    console.log(new_array)
     maxleng = new_array.length < 30 ? new_array.length : 30;
 
     console.log(maxleng)
