@@ -1183,7 +1183,7 @@ const questions = [
     //     ], 
     // },
     {
-        question:"Quando receber uma chamada pela telefone celular, estando com o veículo em movimento, o procedimento correto do condutor é:",
+        question:"Quando receber uma chamada pelo telefone celular, estando com o veículo em movimento, o procedimento correto do condutor é:",
         alter_correct:"Parar o veículo em local seguro e atender a ligação.",
         alter_incorrect:[
             "Atender com a mão esquerda e em alta velocidade.",
