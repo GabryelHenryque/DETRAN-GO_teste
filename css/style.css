@@ -1,0 +1,25 @@
+:root {
+  /* cor principal de warning */
+  --bs-warning: #EF7C00;
+
+  /* cor usada como background nos bg-warning */
+  --bs-warning-bg: #EF7C00;
+
+  /* cor usada em alerts, borders, etc. (versões claras) */
+  --bs-warning-rgb: 239, 124, 0; /* rgb(239, 124, 0) */
+
+  /* opcional: se quiser ajustar textos em cima de warning */
+  --bs-warning-text-emphasis: #8a4200; /* um tom mais escuro para contraste */
+  --bs-warning-border-subtle: #f3c18c; /* borda sutil para alerts */
+  --bs-warning-bg-subtle: #fff3e0; /* fundo claro de alert-warning */
+}
+
+
+.btn-outline-warning {
+  --bs-btn-color: #EF7C00;
+  --bs-btn-border-color: #EF7C00;
+  --bs-btn-hover-bg: #EF7C00;
+  --bs-btn-hover-border-color: #EF7C00;
+  --bs-btn-active-bg: #EF7C00;
+  --bs-btn-active-border-color: #EF7C00;
+}

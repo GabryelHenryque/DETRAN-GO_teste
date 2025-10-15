@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "source": "Prova téorica de autoescola",
+    "last_update": "2025-10-13",
+    "language": "pt-BR"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "category": "",
+      "difficulty": "facil",
+      "question": "",
+      "alter_correct": "",
+      "alter_incorrect": ["", "", ""]
+    },
+    {
+      "id": 2,
+      "category": "",
+      "subcategory": "",
+      "difficulty": "m",
+      "question": "",
+      "alter_correct": "",
+      "alter_incorrect": [
+        "",
+        "",
+        ""
+      ],
+      "plate": {
+        "code": "",
+        "name": "",
+        "description": "",
+        "image_url": ""
+      },
+      "explanation": ""
+    }
+
+  ]
+}
