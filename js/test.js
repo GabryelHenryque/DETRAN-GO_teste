@@ -1333,7 +1333,7 @@ function renderQuest() {
         btn_result.className = "d-block btn text-center text-light w-25 bg-warning"
      }else{
          btn_result.className = "d-none"
-          btn_next.className = "d-block btn text-center rounded-circle text-light w-25  bg-warning  material-symbols-outlined "
+          btn_next.className = "d-block btn text-center rounded-pill text-light w-25  bg-warning  material-symbols-outlined fs-4 "
          
      }
      
@@ -1345,9 +1345,9 @@ function renderQuest() {
     */
 
     container_quest.innerHTML = `
-    <div class="container h-100 d-flex flex-column justify-content-between mb-3 my-10  ">
+    <div class="container h-100  d-flex flex-column justify-content-between mb-3 my-10  gap-5 ">
         <!--perguntas-->
-        <p class="fs-6 fw-bold"><span>${questIndex + 1} - </span>${newQuestionn[questIndex]?.question}</p>
+        <p class="fs-5 fw-bold"><span>${questIndex + 1} - </span>${newQuestionn[questIndex]?.question}</p>
 
         <!--questoes-->
          <div  class="mb-5">

@@ -13,7 +13,7 @@ const getId = (id) => document.getElementById(id);
 const save_select = JSON.parse(localStorage.getItem('save_select'))
 const questions = JSON.parse(localStorage.getItem('questions'))
 
-console.log(questions);
+//console.log(questions);
 
 
 // gerar questoes ---------
@@ -45,7 +45,7 @@ questions.forEach((e,i)=> {
     if(save_select[i] === -1){
         correct.style.border = "solid 2px rgba(203, 169, 0, 0.63)"
         point -= 1
-        return console.log("[",i,"]","default")
+        //return console.log("[",i,"]","default")
          
     }
     
@@ -53,13 +53,14 @@ questions.forEach((e,i)=> {
     const id_label = optionSelect(i,save_select[i])
     
     if (questions[i]?.alter[save_select[i]] === questions[i]?.alter_correct){
-        console.log("[",i,"]","correto")
+        //console.log("[",i,"]","correto")
         id_label.style.backgroundColor = "rgba(1, 230, 47, 0.14)"
     
     }else{
-        console.log("[",i,"]","errado")
-         id_label.style.backgroundColor = "rgba(203, 0, 0, 0.14)"
-        
+        //console.log("[",i,"]","errado")
+        if (id_label !== undefined){
+            id_label.style.backgroundColor = "rgba(203, 0, 0, 0.14)"
+         }
         correct.style.border = "solid 2px rgba(203, 169, 0, 0.63)"
         point -= 1
     }
@@ -68,15 +69,15 @@ questions.forEach((e,i)=> {
      
 });
 
-console.log(save_select)
-console.log("pontos:",point);
+//console.log(save_select)
+//console.log("pontos:",point);
 
 const maxleng = questions.length
 const contmax = Math.round((75/100) * maxleng);
 const result_id_1 =  getId("result_1")
 const result_id_2 =  getId("result_2")
 
-console.log(`resultado: ${point}/${maxleng}, ${contmax}`);
+//console.log(`resultado: ${point}/${maxleng}, ${contmax}`);
 if(point < contmax){
     result_id_1.textContent = "Reprovou"
     result_id_2.textContent = "Reprovou"
@@ -94,7 +95,7 @@ if(point < contmax){
 
 }
 
-console.log(a)
+//console.log(a)
 
 
 function optionSelect(option,i) {
