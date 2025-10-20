@@ -9,7 +9,7 @@
 
 
 
-### Visite o projeto: (https://gabryelhenryque.github.io/DETRAN-GO_teste/home)
+### Visite o projeto: (https://gabryelhenryque.github.io/DETRAN-GO_teste/html/home)
 
 ## Objetivo do site
 Criar uma experiência, onde simula um teste do DETRAN. O site sorteia questões do DETRAN e pontua se você passou ou não, com possibilidade de fazer o teste com questões completamente diferentes.
