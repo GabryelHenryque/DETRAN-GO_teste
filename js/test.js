@@ -533,14 +533,14 @@ const questions = [
             "02 (dois) anos.",
             "06 (seis) anos."]  
     },
-    {   
-        question:"Qual o nome técnico da placa S-4?",
-        alter_correct:"Abastecimento.",
-        alter_incorrect:[
-            "Restaurante.",
-            "Pronto Socorro.",
-            "Serviço sanitário."]  
-    },
+    // {   
+    //     question:"Qual o nome técnico da placa S-4?",
+    //     alter_correct:"Abastecimento.",
+    //     alter_incorrect:[
+    //         "Restaurante.",
+    //         "Pronto Socorro.",
+    //         "Serviço sanitário."]  
+    // },
     {   
         question:"Os meios de ação que são utilizados para atingir os objetivos da direção defensiva:",
         alter_correct:"Educação, fiscalização e engenharia.",
@@ -1478,8 +1478,18 @@ function radioSelect(i) {
     - mudar de tela
 */
 function startResult(){
+
+    let nulo_quest = 0
+    save_select.forEach((e,i) => {
+        if(save_select[i] === -1){ nulo_quest +=1}
+    });
+
+    if(nulo_quest >= 3){ return console.debug("Falta questoes para serem respondidas");}
+
+    console.log(save_select)
+    console.log(nulo_quest)
+
     NextQuest()
-    //console.log(save_select)
     localStorage.setItem('questions',JSON.stringify(newQuestionn))
     localStorage.setItem('save_select', JSON.stringify(save_select))
     window.location.href = "./result.html"

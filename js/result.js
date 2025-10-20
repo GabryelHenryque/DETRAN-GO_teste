@@ -38,13 +38,13 @@ questions.forEach((e,i)=> {
     </div>
     `
 
-    
+ 
     //verificar qual cor em cada label tem que entrar ------------------
     const correct_index = questions[i]?.alter.indexOf(questions[i]?.alter_correct)
     const correct = optionSelect(i,correct_index)
     if(save_select[i] === -1){
         correct.style.border = "solid 2px rgba(203, 169, 0, 0.63)"
-        point -= 1
+    
         //return console.log("[",i,"]","default")
          
     }
@@ -69,8 +69,7 @@ questions.forEach((e,i)=> {
      
 });
 
-//console.log(save_select)
-//console.log("pontos:",point);
+
 
 const maxleng = questions.length
 const contmax = Math.round((75/100) * maxleng);
@@ -79,16 +78,18 @@ const result_id_2 =  getId("result_2")
 
 //console.log(`resultado: ${point}/${maxleng}, ${contmax}`);
 if(point < contmax){
-    result_id_1.textContent = "Reprovou"
-    result_id_2.textContent = "Reprovou"
+    result_id_1.innerHTML = `Reprovou<br>${point}/${maxleng}`
+    result_id_2.innerHTML = `Reprovou<br>${point}/${maxleng}`
+ 
 
     result_id_1.style.backgroundColor = "rgba(203, 0, 0, 0.14)"
     result_id_2.style.backgroundColor = "rgba(203, 0, 0, 0.14)"
 
 
 }else{
-    result_id_1.textContent = "Passou"
-    result_id_2.textContent = "Passou"
+    result_id_1.innerHTML = `Passou<br>${point}/${maxleng}`
+    result_id_2.innerHTML = `Passou<br>${point}/${maxleng}`
+
 
     result_id_1.style.backgroundColor = "rgba(1, 230, 47, 0.14)"
     result_id_2.style.backgroundColor = "rgba(1, 230, 47, 0.14)"
@@ -110,6 +111,15 @@ function optionSelect(option,i) {
 }
 
 
-/*esse sem duvida foi o codigo mais feio da minha vida,
- algum dia eu volto para refatorar e finalizar as ultimas 3 coisas,
- Porem por agora eu cansei*/
+/*esse sem duvida foi o codigo mais feio da minha vida. Algum dia volto 
+e refatoro.
+esta faltando fazer algumas coisas:
+    - separar as questoes do codigo font
+    - organizar as questoes  em topicos
+    - adicionar questoes de placa e imagems
+    - criar filtro de questoes
+        - filtrar por topico
+        - dificuldade de questões
+        - 
+    - criar tabela das questoes selecionadas
+    */
